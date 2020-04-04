@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Coquette", sans-serif;
+  font-size: 5.6rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+hr {
+  clear: both;
+  margin: 50px auto;
+  border-style: none;
+  border-bottom: 10px dotted rgb(203, 218, 218);
+  width: 100px;
+  border-spacing: 20px; 
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.footer-link
+{
+  margin: auto 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #11999E;
+}
+
+.footer-link:hover
+{
+  color: rgb(15, 125, 129);
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-skill-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.img-skill-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  height: 200px;
+  background-color: #66bfbf;
+  color: #eaf6f6;  
+  line-height: 2;
+  font-weight: 600;
+  display: table;
+  width:100%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-content{
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.contact-button {
+  background: #3ce1d9;
+  background-image: -webkit-linear-gradient(top, #3ce1d9, #3b85a9);
+  background-image: -moz-linear-gradient(top, #3ce1d9, #3b85a9);
+  background-image: -ms-linear-gradient(top, #3ce1d9, #3b85a9);
+  background-image: -o-linear-gradient(top, #3ce1d9, #3b85a9);
+  background-image: linear-gradient(to bottom, #3ce1d9, #3b85a9);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-button:hover {
+  border: solid #34ccd3 0px;
+  background: #33c5be;
+  background-image: -webkit-linear-gradient(top, #33c5be, #357999);
+  background-image: -moz-linear-gradient(top, #33c5be, #357999);
+  background-image: -ms-linear-gradient(top, #33c5be, #357999);
+  background-image: -o-linear-gradient(top, #33c5be, #357999);
+  background-image: linear-gradient(to bottom, #33c5be, #357999);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-decoration: none;
+}
